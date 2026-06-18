@@ -20,7 +20,7 @@ Rolling back to Liquibase 4.23.1 + liquibase-vertica 4.23.1 immediately resolves
 
 ## Steps To Reproduce
 
-A self-contained reproduction project is available at: https://github.com/YOUR_USERNAME/liquibase-vertica-repro
+A self-contained reproduction project is available at: https://github.com/iainmorrisongb/liquibase-vertica-repro
 *(see README.md for setup instructions, or follow the manual steps below)*
 
 ### Prerequisites
