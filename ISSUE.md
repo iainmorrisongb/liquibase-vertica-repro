@@ -5,7 +5,7 @@
 - **Liquibase Version**: 5.0.3
 - **Integration**: CLI (`liquibase update`)
 - **Extension(s) and version(s)**: liquibase-vertica 5.0.3
-- **Database vendor and version**: Vertica 25.03.0006
+- **Database vendor and version**: Vertica Analytic Database v25.3.0-6
 - **Java version**: 21.0.11
 - **Vertica JDBC version**: 12.0.0-0
 - **Operating System**: Linux (Debian 13 / Trixie)
@@ -89,7 +89,7 @@ docker run --rm \
   -w /changelogs \
   liquibase/liquibase:4.23.1 \
     --url=jdbc:vertica://<host>:5433/<database> \
-    --username=dbadmin \
+    --username=<username> \
     --password=<password> \
     --changelog-file=master-changelog.yaml \
     --default-schema-name=testschema \
@@ -111,7 +111,7 @@ docker run --rm \
   -w /changelogs \
   liquibase/liquibase:5.0.3 \
     --url=jdbc:vertica://<host>:5433/<database> \
-    --username=dbadmin \
+    --username=<username> \
     --password=<password> \
     --changelog-file=master-changelog.yaml \
     --default-schema-name=testschema \
